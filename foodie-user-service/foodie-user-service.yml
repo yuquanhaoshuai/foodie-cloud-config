@@ -1,0 +1,10 @@
+# actuator 暴露接口
+management:
+  endpoints:
+    web:
+      exposure:
+        # 开启所有actuator-endpoint
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
